@@ -1,0 +1,29 @@
+{% extends 'shop/basic.html' %}
+{% block title %}D-Cart: Search Result Not Found{% endblock %}
+{% block css %} 
+
+.page{
+    text-align: center;
+}
+.page .first{
+    color: #878787;
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.page .second{
+    font-size: 26px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+
+{% endblock %}
+
+{% block body %}
+<div class="page my-5">
+    <img src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/error-no-search-results_e83b58.png">
+    <div class="first">Please check the spelling or try searching for something else</div>
+    <div class="second">Sorry, no results found!</div>
+</div>
+{% endblock %}
