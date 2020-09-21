@@ -45,6 +45,7 @@ atlast just type runserver in your console to see the D-Cart in action;
 ```
 $ python manage.py runserver
 ```
+Do not forget to setup your SECRET_KEY in settings.py. If it aleady set then ok.
 Now you are good to go. Having knowledge on frontend technologies such as Javascript and jQuery is added benefit but you can use google for need as I did.
 ## Features!
 
