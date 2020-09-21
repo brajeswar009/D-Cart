@@ -32,6 +32,19 @@ After successful installation of python, install django using pip command.
 ```
 $ pip install django
 ```
+to see the project in action, just run the below code in console;
+First run makemigrations to package all your model related changes into specific migrations file
+```
+$ python manage.py makemigrations
+```
+then run migrate to apply all those migrations file to commit changes into database.
+```
+$ python manage.py migrate
+```
+atlast just type runserver in your console to see the D-Cart in action;
+```
+$ python manage.py runserver
+```
 Now you are good to go. Having knowledge on frontend technologies such as Javascript and jQuery is added benefit but you can use google for need as I did.
 ## Features!
 
